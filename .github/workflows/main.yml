@@ -1,8 +1,7 @@
 name: CI 
   
-on: [push, workflow_dispatch] 
-  
- Jobs: 
+  on: [push, workflow_dispatch] 
+Jobs: 
     build: 
   
       runs-on: windows-latest 
